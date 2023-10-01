@@ -2,16 +2,14 @@ var a = 4
 var b = 4
 var c = 3
 
-if (a = b) {
-    console.log("c'est égal")
+switch(a) {
+    case b:
+        console.log ("égal à b")
+        break
+    case c:
+        console.log ("égal à c")
+    break
+    default:
+        console.log ("égal à rien")
+
 }
-
-    else {
-        console.log("raté")
-    }
-
-    if (c < b && a+c != 3) {
-    console.log("ok")} 
-
-else {
-    console.log("raté")}
